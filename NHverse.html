@@ -3,18 +3,18 @@
 <head>
   <title>NH Verse 2024</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/header.css">
+  <link rel="stylesheet" href="header.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="/left-sidebar.css">
-  <link rel="stylesheet" href="/right-sidebar.css">
-  <link rel="stylesheet" href="/arrows.css">
-  <link rel="stylesheet" href="/main-info.css">
-  <link rel="stylesheet" href="/explore.css">
-  <link rel="stylesheet" href="/responsive.css">
+  <link rel="stylesheet" href="left-sidebar.css">
+  <link rel="stylesheet" href="right-sidebar.css">
+  <link rel="stylesheet" href="arrows.css">
+  <link rel="stylesheet" href="main-info.css">
+  <link rel="stylesheet" href="explore.css">
+  <link rel="stylesheet" href="responsive.css">
 
   <script>
     document.addEventListener('DOMContentLoaded', function () {
@@ -43,9 +43,9 @@
   const dropdownMenu = document.createElement("div");
   dropdownMenu.classList.add("dropdown-menu");
 
-  // give the Home, Contact Us , About Us , FAQ options in drop down menU
+  //  Home, Contact Us , About Us , FAQ options in drop down menU
   dropdownMenu.innerHTML = `
-    <button class="close-btn">&times;</button> <!-- Close button -->
+    <button class="close-btn">&times;</button>
     <button class="dropdown-item">Home</button>
     <button class="dropdown-item">About Us</button>
     <button class="dropdown-item">FAQ</button>
@@ -59,7 +59,6 @@
     dropdownMenu.classList.toggle("show-menu");
   });
 
-  // Prevent closing the dropdown if the user clicks inside it
   dropdownMenu.addEventListener("click", function (event) {
     event.stopPropagation();
   });
@@ -79,14 +78,14 @@
 
     <div class="left-section">
       <div class="logo">
-        <img class="logo-img" src="/Icons/NHlogo.png">
+        <img class="logo-img" src="Icons/NHlogo.png">
       </div>
       <div class="nh-verse">
         NH-Verse 2024
       </div>
     </div>
     <div class="hamburger-menu">
-      <img class="hamburger-icon" src="/Icons/hamburgermenu.png">
+      <img class="hamburger-icon" src="Icons/hamburgermenu.png">
     </div>
       <div class="right-section">
         <div class="home">
@@ -126,14 +125,14 @@
         <div class="prizes">
           <button class="leftsidebar-buttons"> Prizes</button>
           <div class="logo">
-            <img class="prize-logo" src="/Icons/prizes.png">
+            <img class="prize-logo" src="Icons/prizes.png">
           </div>
         </div>
         <div class="sponsers">
           <button class="leftsidebar-buttons">Sponsors
           </button>
           <div class="logo">
-            <img class="sponsers-logo" src="/Icons/sponsers2.png">
+            <img class="sponsers-logo" src="Icons/sponsers2.png">
           </div>
         </div>
         <div class="tracks">
@@ -141,7 +140,7 @@
             Tracks
           </button>
           <div class="logo">
-            <img class="tracks-logo" src="/Icons/tracks.png  ">
+            <img class="tracks-logo" src="Icons/tracks.png  ">
           </div>
         </div>
         <div class="timeline">
@@ -149,7 +148,7 @@
             Timeline
           </button>
           <div class="logo">
-            <img class="timeline-logo" src="/Icons/timeline2.png">
+            <img class="timeline-logo" src="Icons/timeline2.png">
           </div>
         </div>
       </div>
@@ -163,25 +162,25 @@
           <button class="feedback-button">
             Feedback
           </button>
-          <img class="img" src="/Icons/feedback.png">
+          <img class="img" src="Icons/feedback.png">
         </div>
         <div class="socials">
           <button class="socials-button">
             Socials
           </button>
-          <img class="img" src="/Icons/socials.png">
+          <img class="img" src="Icons/socials.png">
         </div>
         <div class="judges">
           <button class="judges-button">
             Judges
           </button>
-          <img class="img" src="/Icons/judges.png">
+          <img class="img" src="Icons/judges.png">
         </div>
         <div class="mentors">
           <button class="mentors-button">
             Mentors
           </button>
-          <img class="img" src="/Icons/mentors.png">
+          <img class="img" src="Icons/mentors.png">
         </div>
       </div>
     </div>
@@ -190,7 +189,7 @@
 
   <div class="main-info">
     <div class="hacks-logo">
-      <img class=hacks-img src="/Icons/LOGOV8.svg">
+      <img class=hacks-img src="Icons/LOGOV8.svg">
     </div>
     <div class="main-details">
     <div class="details">
@@ -216,15 +215,15 @@
         with
       </div>
       <div class="devfolio-logo">
-        <img class=devfolio-img src="/images/devfolio.webp">
+        <img class=devfolio-img src="images/devfolio.webp">
       </div>
     </div>
   </div>
   <div class="explore-div">
-    <img class="explore-img" src="/images/explore.png">
+    <img class="explore-img" src="images/explore.png">
   </div>
   <div class="whats-div">
-    <img class="whats-div" src="/images/whats.png">
+    <img class="whats-div" src="images/whats.png">
   </div>
 </body>
 </html>
