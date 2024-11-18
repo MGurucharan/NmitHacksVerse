@@ -1,0 +1,65 @@
+.left-sidebar
+{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top:90px;
+  background-color: rgb(32, 32, 32);
+  z-index: 200;
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  /* border:none;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.3); */
+}
+
+
+.prizes,.tracks,.sponsers,.timeline,.sidebar-buttons
+{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 20px;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.prize-logo
+{
+  margin-top: 20px;
+  width: 70px;
+}
+.sponsers-logo
+{
+  margin-top: 20px;
+  width: 70px;
+}
+.tracks-logo
+{
+  margin-top: 20px;
+  width: 70px;
+}
+.timeline-logo
+{
+  margin-top: 20px;
+  width: 70px;
+}
+.leftsidebar-buttons
+{
+  background-color: rgb(32,32,32);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  transition: transform 0.5s ease;
+}
+.leftsidebar-buttons:hover
+{
+  transform: scale(1.1);
+  color: rgb(248, 70, 17);
+}
+

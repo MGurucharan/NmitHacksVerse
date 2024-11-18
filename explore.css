@@ -1,0 +1,76 @@
+.explore-div {
+  display: flex;
+  flex-direction: row;
+  top: 120px;
+  left: -60px;
+  position: fixed;
+}
+
+.explore-img {
+  object-fit: contain;
+  width: 500px;
+  height: 500px;
+  background: rgba(0, 0, 0, 0);
+}
+
+.whats-div {
+  display: flex;
+  flex-direction: row;
+  top: 115px;
+  right: -30px;
+  position: fixed;
+}
+
+.whats-img {
+  object-fit: contain;
+  width: 500px;
+  height: 500px;
+}
+
+/*I have given the breakponts at 690px 480px and 320px*/
+@media (max-width: 690px) {
+  .explore-img, .whats-img {
+    display: none;
+    width: 300px;
+    height: 300px; 
+  }
+
+  .explore-div {
+    left: -40px; 
+  }
+
+  .whats-div {
+    display: none;
+    right: -20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .explore-img, .whats-img {
+    width: 200px;
+    height: 200px; 
+  }
+
+  .explore-div {
+    left: -20px;
+  }
+
+  .whats-div {
+    right: -10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .explore-img, .whats-img {
+    width: 150px;
+    height: 150px; 
+  }
+
+  .explore-div {
+    left: 0;
+  }
+
+  .whats-div {
+    right: 0;
+  }
+}

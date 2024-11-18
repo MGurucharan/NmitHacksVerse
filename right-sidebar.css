@@ -1,0 +1,49 @@
+.right-sidebar
+{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top:90px;
+  background-color: rgb(32,32,32);
+  z-index: 200;
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+}
+
+.img
+{
+  margin-top: 30px;
+  width: 70px;
+}
+
+.socials,.feedback,.judges,.mentors
+{
+  margin-top: 40px;
+  display: flex;
+  font-size: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mentors-button,.socials-button,.judges-button,.feedback-button
+{
+  background-color: rgb(32,32,32);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  transition: transform 0.5s ease;
+}
+.mentors-button:hover,.socials-button:hover,.judges-button:hover,.feedback-button:hover
+{
+  color: rgb(248, 70, 17);
+  transform: scale(1.1);
+}
+
+
+

@@ -1,0 +1,175 @@
+body {
+  background-color: rgb(16, 16, 16);
+}
+
+.main-info {
+  position: relative;
+  background-color: rgb(16, 16, 16);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 200px;
+  justify-content: center;
+}
+
+.hacks-logo {
+  z-index: 300;
+}
+
+.hacks-img {
+  width: 900px;
+}
+
+.main-details {
+  z-index: 300;
+}
+
+.details {
+  z-index: 300;
+  color: white;
+  font-size: 40px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sub-details1,
+.sub-details2,
+.sub-details3 {
+  z-index: 300;
+  color: white;
+  margin-bottom: 10px;
+  text-align: center; 
+}
+
+.sub-details1 {
+  font-size: 30px;
+}
+
+.sub-details2,
+.sub-details3 {
+  font-size: 28px;
+}
+
+.sub-details3 {
+  margin-bottom: 50px;
+}
+
+.devfolio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 10px;
+  height: 30px;
+  z-index: 300;
+  border: 1.5px solid rgb(242, 142, 111);
+  box-shadow: 0px 1px 10px rgba(242, 142, 111, 5);
+}
+@media (min-width:0px) and (max-width:500px)
+{
+  .devfolio
+  {
+    display: flex;
+    flex-direction: row;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    height: 0px;
+    z-index: 300;
+    border: 1.5px solid rgb(242, 142, 111);
+    box-shadow: 0px 1px 10px rgba(242, 142, 111, 5);
+  }
+  .sample
+  {
+    font-size: 10px !important;
+  }
+  .devfolio-img {
+    width: 70px !important; 
+    margin-top: 5px;
+  }
+  .devfolio-button {
+    font-size: 10px !important;
+    background-color: rgb(248, 70, 17);
+    border-radius: 30px;
+    padding: 2.5px 10px !important;
+    margin-bottom: 20px;
+    box-shadow: 0px 1px 10px rgba(248, 70, 17, 0.9);
+    transition: transform 0.5s ease;
+    margin-bottom: 25px !important;
+  }
+}
+.devfolio-img {
+  width: 100px; 
+  max-width: 150px;
+  margin-top: 5px;
+}
+
+.devfolio-button {
+  margin-right: 10px;
+  font-size: 18px;
+  background-color: rgb(248, 70, 17);
+  border-radius: 30px;
+  padding: 5px 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 1px 10px rgba(248, 70, 17, 0.9);
+  transition: transform 0.5s ease;
+}
+
+.devfolio-button:hover {
+  transform: scale(1.05);
+}
+
+.sample {
+  color: black;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+
+@media (max-width: 690px) {
+  .main-info {
+    padding: 100px 20px; 
+  }
+
+  .details {
+    font-size: 25px;
+  }
+
+  .sub-details1,
+  .sub-details2,
+  .sub-details3 {
+    font-size: 20px;
+  }
+
+  .devfolio-button {
+    font-size: 16px;
+    padding: 5px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .details {
+    font-size: 20px;
+  }
+
+  .sub-details1,
+  .sub-details2,
+  .sub-details3 {
+    font-size: 15px;
+  }
+
+  .devfolio-img {
+    width: 80px; 
+  }
+
+  .devfolio-button {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+}
